@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "TStar";
+  src: url("/fonts/TSTAR-Medium.otf") format("opentype");
+  font-weight: 400 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TStar";
+  src: url("/fonts/TSTAR-Bold.otf") format("opentype");
+  font-weight: 600 700;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffdc00;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.dc-canvas > section {
+  width: 100%;
+  height: 100%;
+}
