@@ -1,5 +1,5 @@
-import DeckViewer from "@/components/DeckViewer";
+import StyleGuidePage from "@/components/StyleGuidePage";
 
 export default function Home() {
-  return <DeckViewer />;
+  return <StyleGuidePage />;
 }
