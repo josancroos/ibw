@@ -1,5 +1,12 @@
-import StyleGuidePage from "@/components/StyleGuidePage";
+import { CHAPTERS } from "@/data/chapters";
+import PrevNext from "@/components/docs/PrevNext";
 
 export default function Home() {
-  return <StyleGuidePage />;
+  const chapter = CHAPTERS[""];
+  return (
+    <>
+      {chapter.render()}
+      <PrevNext slug="" />
+    </>
+  );
 }
